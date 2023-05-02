@@ -26,4 +26,28 @@ body {
   text-decoration: none;
   display: block;
   padding: 10px 20px;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../img/london\ bridge.avif);
+  min-height: 700px;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.banner button {
+  padding: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  background: none;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
