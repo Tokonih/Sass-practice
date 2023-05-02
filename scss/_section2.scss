@@ -1,0 +1,18 @@
+.section2{
+    margin:50px 0;
+
+    .btn1{
+        @include btn($primary, $white);
+        font-weight:600;
+
+        &:hover{
+            background: darken($primary, 20%);
+        }
+    
+    }
+
+    
+    button{
+        @extend .btn1;
+    }
+}

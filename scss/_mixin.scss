@@ -1,0 +1,15 @@
+@mixin box{
+    box-shadow: 2px 2px 10px rgba( 197, 197, 197, 0.4);
+}
+
+
+@mixin btn($bg-btn, $btn-color){
+    padding: 10px;
+    font-size: 14px;
+    background-color: $bg-btn;
+    color: $btn-color;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: 10px 0;
+}
