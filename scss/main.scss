@@ -1,0 +1,41 @@
+$primary: blue;
+$secondary: green;
+$dark:#000000;
+$white:#ffffff;
+$warning:yellow;
+$pink:pink;
+$danger:#980303;
+$bg:#eeeeee;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $bg;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    background-color: $dark;
+    color: $white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul{
+        display: flex;
+        list-style: none;
+
+        a{
+            color: $white;
+            text-decoration: none;
+            display: block;
+            padding: 10px 20px;
+        }
+    }
+}
+
